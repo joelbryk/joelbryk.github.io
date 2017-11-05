@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,10 +12,10 @@
 	<link rel="shortcut icon" href="/favicon.ico">
     
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -32,7 +31,6 @@
 </head>
 
 <body>
-
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
@@ -55,37 +53,41 @@
 
     <!-- Header -->
     <header id="top" class="header">
-        <div class="header-block">
-            <img class="masthead" src="/../img/IonIsraellogo.jpg">
-            <br>
-            <h1>I on Israel</h1>
-            <h3>An Israel Magazine</h3>
-            <br>
-            
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
-        </div>
+        <img class="masthead" src="/../img/IonIsraellogo.jpg">
+        <h1>I on Israel</h1>
+        <h3>An Israel Magazine</h3>
     </header>
+
+    <div class="photo-grid">
+        <img class="photo" src="/img/collage/alexander.jpg" />
+        <img class="photo" src="/img/collage/fidv1.jpg" />
+        <img class="photo" src="/img/collage/flags.jpg" />
+        <img class="photo sm-hide" src="/img/collage/gene.jpg" />
+        <img class="photo sm-hide" src="/img/collage/golan.jpg" />
+        <img class="photo sm-hide" src="/img/collage/mosaic.jpg" />
+        <img class="photo md-hide" src="/img/collage/oneisrael.png" />
+        <img class="photo md-hide" src="/img/collage/russian.jpg" />
+        <img class="photo md-hide" src="/img/collage/shechem.jpg" />
+        <img class="photo md-hide" src="/img/collage/swim.jpg" />
+        <img class="photo md-hide" src="/img/collage/turtles.jpg" />
+        <img class="photo md-hide" src="/img/collage/winery.jpg" />
+    </div>
 
     <!-- About -->
     <section id="about" class="about">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Welcome to I on Israel</h2>
-                    <p class="lead"> 
-                        The following has been conceived as a “Shul-based Blog”, for lack of a better term. The articles we present will cover subjects such as: lesser known Israeli personalities, travel recommendations for both adults and children, holiday related events, and a review of Israeli lifestyle in all its manifestations, i.e. religious, secular, civilian, military, political and social.
-                    </p>
-                	<p class="lead">Most often our focus about Israel, resides around the familiar topics of Israeli versus Arab, Chareidi versus Dati Leumi versus Secular, and the Inbal versus the Citadel. I would like to promote Israel advocacy in our community through a much simpler and more enjoyable prism. We should define Israel through the events that distinguish Israel from any other location, and the people who make the country unique. The ability to say to our friends and co-workers, "this is what is really happening in Israel!" will be far more influential than any political discussion of the country's pros and cons.
-	                </p>
-                    <h3>I have decided to call the newsletter, "I on Israel".</h3>
-                    <ol class="lead text-left">
-                        <li>most articles will be written from a personal perspective</li>
-                        <li>the similarity between "I" and "eye"</li>
-                        <li>the combination of the words "I on" to "ion", originally coined from the Greek "to go"</li>
-                    </ol>
-                </div>
-            </div>
-            <!-- /.row -->
+            <h2>Welcome to I on Israel</h2>
+            <p class="lead"> 
+                The following has been conceived as a “Shul-based Blog”, for lack of a better term. The articles we present will cover subjects such as: lesser known Israeli personalities, travel recommendations for both adults and children, holiday related events, and a review of Israeli lifestyle in all its manifestations, i.e. religious, secular, civilian, military, political and social.
+            </p>
+            <p class="lead">Most often our focus about Israel, resides around the familiar topics of Israeli versus Arab, Chareidi versus Dati Leumi versus Secular, and the Inbal versus the Citadel. I would like to promote Israel advocacy in our community through a much simpler and more enjoyable prism. We should define Israel through the events that distinguish Israel from any other location, and the people who make the country unique. The ability to say to our friends and co-workers, "this is what is really happening in Israel!" will be far more influential than any political discussion of the country's pros and cons.
+            </p>
+            <h3>I have decided to call the newsletter &ldquo;I on Israel&rdquo; because:</h3>
+            <ul class="lead text-left">
+                <li>most articles will be written from a personal perspective</li>
+                <li>the similarity between "I" and "eye"</li>
+                <li>the combination of the words "I on" to "ion", originally coined from the Greek "to go"</li>
+            </ul>
         </div>
         <!-- /.container -->
     </section>
@@ -128,7 +130,7 @@
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-					<div class="CallToAction">Writers needed! Please email <a href="mailto:joelbryk@gmail.com">joelbryk@gmail.com</a>.</div>
+					<div class="call-to-action">Writers needed! Please email <a href="mailto:joelbryk@gmail.com">joelbryk@gmail.com</a>.</div>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -147,17 +149,7 @@
                     <p>Young Israel of Woodmere
                         <br>Woodmere, NY 11598</p>
                     <ul class="list-unstyled">
-                       
                         <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:joel@ionisrael.org">joel@ionisrael.org</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
                     <hr class="small">
@@ -165,89 +157,13 @@
                 </div>
             </div>
         </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    //#to-top button appears after scrolling
-    var fixed = false;
-    $(document).scroll(function() {
-        if ($(this).scrollTop() > 250) {
-            if (!fixed) {
-                fixed = true;
-                // $('#to-top').css({position:'fixed', display:'block'});
-                $('#to-top').show("slow", function() {
-                    $('#to-top').css({
-                        position: 'fixed',
-                        display: 'block'
-                    });
-                });
-            }
-        } else {
-            if (fixed) {
-                fixed = false;
-                $('#to-top').hide("slow", function() {
-                    $('#to-top').css({
-                        display: 'none'
-                    });
-                });
-            }
-        }
-    });
-    // Disable Google Maps scrolling
-    // See http://stackoverflow.com/a/25904582/1607849
-    // Disable scroll zooming and bind back the click event
-    var onMapMouseleaveHandler = function(event) {
-        var that = $(this);
-        that.on('click', onMapClickHandler);
-        that.off('mouseleave', onMapMouseleaveHandler);
-        that.find('iframe').css("pointer-events", "none");
-    }
-    var onMapClickHandler = function(event) {
-            var that = $(this);
-            // Disable the click handler until the user leaves the map area
-            that.off('click', onMapClickHandler);
-            // Enable scrolling zoom
-            that.find('iframe').css("pointer-events", "auto");
-            // Handle the mouse leave event
-            that.on('mouseleave', onMapMouseleaveHandler);
-        }
-        // Enable map zooming with mouse scroll when the user clicks the map
-    $('.map').on('click', onMapClickHandler);
-    </script>
-
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
