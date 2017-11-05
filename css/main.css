@@ -244,6 +244,20 @@ footer {
 	object-fit: cover;
 	object-position: top;
 }
+@media screen and (max-width: 991px) {
+    .img-portfolio.img-responsive {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .img-portfolio.img-responsive {
+        width: 100%;
+        height: 250px;
+    }
+}
+
 .img-text {
     position: absolute;
     top: 33%;
