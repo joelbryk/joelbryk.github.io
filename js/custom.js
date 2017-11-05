@@ -1,6 +1,7 @@
 var $grid = $('.photo-grid').masonry({
   // options
   itemSelector: '.photo',
+  transitionDuration: 0,
   gutter: 0
 });
 
